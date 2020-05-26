@@ -6,5 +6,12 @@ array = [
 
 
 def find_even_values(array)
-  array.select { |i| i.even? }
+  #array.select { |i| i.even? }
+  even_numbers = []
+array.each do |n|
+  if n.even?
+    even_numbers << n
+  end
+end
+even_numbers
 end
