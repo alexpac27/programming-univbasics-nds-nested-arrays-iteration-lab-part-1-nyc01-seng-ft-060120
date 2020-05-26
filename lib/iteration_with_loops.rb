@@ -13,7 +13,7 @@ def find_even_values(array)
 
     inner_count = 0
     while inner_count < array[count].length do
-      if array[count][inner_count] %2 == 0
+      if array[count][inner_count].even?
         even_array << array[count][inner_count]
         else
           even_array = even_array
