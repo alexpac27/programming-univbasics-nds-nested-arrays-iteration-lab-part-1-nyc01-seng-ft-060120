@@ -25,3 +25,5 @@ count += 1
 
 p even_array
 end
+
+def find_even_values(array)
