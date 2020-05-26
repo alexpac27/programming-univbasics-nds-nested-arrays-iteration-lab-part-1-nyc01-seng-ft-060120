@@ -1,4 +1,4 @@
-array = [
+array1 = [
   [1,2,3], #0
   [4,5,6], #1
   [7,8,9]  #2
@@ -26,4 +26,4 @@ count += 1
 p even_array
 end
 
-def find_even_values(array)
+def find_even_values(array1)
