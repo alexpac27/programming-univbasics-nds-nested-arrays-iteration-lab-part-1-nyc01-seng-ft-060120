@@ -6,6 +6,6 @@ array = [
 
 
 def find_even_values(array)
-  array.select { |i| i %2 == 0 }
+  array.select {|i| i %2 == 0}
 
 end
